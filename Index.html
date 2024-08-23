@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Validation</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div id="main">
-        <div class="input">
-            <!-- form -->
-            <label id="label">Email</label>
-            <input type="email" spellcheck="false" id="field" onkeyup="validate()">
-            <span id="error"></span>
-        </div>
+      <div class="input">
+        <!-- form -->
+        <label id="label">Email</label>
+        <input
+          type="email"
+          spellcheck="false"
+          id="field"
+          onkeyup="validate()"
+        />
+        <span id="error"></span>
+      </div>
+      <div class="button-group">
+        <button type="submit" class="submit-btn">Submit</button>
+        <button type="reset" class="reset-btn">Reset</button>
+      </div>
     </div>
     <script src="script.Js"></script>
-</body>
+  </body>
 </html>
